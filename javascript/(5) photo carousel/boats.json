@@ -1,0 +1,26 @@
+[
+    {
+        "name": "red fishing boat",
+        "pic": "images/red_fishing_boat.jpg"
+    },
+    {
+        "name": "white fishing boat",
+        "pic": "images/white_fishing_boat.jpg"
+    },
+    {
+        "name": "cruise ship",
+        "pic": "images/cruise_ship.png"
+    },
+    {
+        "name": "rescue boat",
+        "pic": "images/rescue_boat.webp"
+    },
+    {
+        "name": "submarine",
+        "pic": "images/submarine.jpg"
+    },
+    {
+        "name": "yacht",
+        "pic": "images/yacht.jpg"
+    }
+]

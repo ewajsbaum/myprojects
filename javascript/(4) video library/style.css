@@ -1,0 +1,45 @@
+body {
+    background-color: purple;
+}
+
+#playlist {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    width: 50em;
+    height: 13em;
+    background-color: rgb(174, 157, 183);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+td {
+    border: 2px solid;
+}
+
+#playlist>tr>td:first-child {
+    width: 5em;
+}
+
+tr:nth-child(even) {
+    background-color: #e4d7df;
+}
+
+tr:hover {
+    background-color: yellow;
+}
+
+.pic {
+    height: 3em;
+    width: 3em;
+}
+
+video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

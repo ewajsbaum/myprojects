@@ -1,0 +1,26 @@
+[
+    {
+        "name": "audi",
+        "pic": "images/audi.jpg"
+    },
+    {
+        "name": "BMW",
+        "pic": "images/bmw.jpg"
+    },
+    {
+        "name": "corvette",
+        "pic": "images/corvette.jpg"
+    },
+    {
+        "name": "mercedes",
+        "pic": "images/mercedes.jpg"
+    },
+    {
+        "name": "range rover",
+        "pic": "images/range_rover.jpg"
+    },
+    {
+        "name": "tesla",
+        "pic": "images/tesla.jpg"
+    }
+]
