@@ -1,0 +1,60 @@
+[
+    {
+        "customer": "John",
+        "address": "12 Sunshine Street",
+        "items": [
+            {
+                "item": "chocolate",
+                "quantity": 10,
+                "total": 20
+            },
+            {
+                "item": "milk",
+                "quantity": 2,
+                "total": 7
+            },
+            {
+                "item": "oranges",
+                "quantity": 1,
+                "total": 4.99
+            }
+        ]
+    },
+    {
+        "customer": "Jill",
+        "address": "8 Main Street",
+        "items": [
+            {
+                "item": "popcorn",
+                "quantity": 6,
+                "total": 11.94
+            },
+            {
+                "item": "pretzels",
+                "quantity": 4,
+                "total": 11.96
+            }
+        ]
+    },
+    {
+        "customer": "Jack",
+        "address": "1992 Avenue Road",
+        "items": [
+            {
+                "item": "pepper",
+                "quantity": 1,
+                "total": 0.95
+            },
+            {
+                "item": "rice",
+                "quantity": 2,
+                "total": 5.78
+            },
+            {
+                "item": "coffee",
+                "quantity": 4,
+                "total": 35.96
+            }
+        ]
+    }
+]

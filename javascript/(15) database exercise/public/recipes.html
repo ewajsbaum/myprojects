@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/recipes.css" />
+    <title>Document</title>
+
+    </style>
+</head>
+
+<body>
+    <label for="recipes">Choose a recipe:</label>
+
+    <select name="recipes" id="dropDown">
+        <option value="">--Please choose an option--</option>
+    </select>
+    <button id="add">Add Recipe</button>
+    <button id="edit">edit</button>
+    <button id="delete">delete</button>
+    <hr>
+
+    <form id="recipeForm">
+        <label>Recipe Name: <input id="nameInput"></label>
+        <label>Ingredients: <input id="ingInput"></label>
+        <button>save</button>
+    </form>
+
+    <div id="recipeCard"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="/javascripts/recipes.js"></script>
+</body>
+
+</html>
