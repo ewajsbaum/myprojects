@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Art</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background: linear-gradient(to right, #048e49, #155799)
+        }
+
+        #map {
+            height: 530px;
+            width: 1000px;
+            margin-top: 40px;
+            box-shadow: 20px 20px 60px rgb(30, 29, 29);
+            border: 7px solid white;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map">dd</div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<apiKey>&v=weekly&libraries=drawing"></script>
+    <script src="map.js"></script>
+</body>
+
+</html>
