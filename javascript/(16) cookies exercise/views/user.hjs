@@ -1,0 +1,7 @@
+<form method="POST">
+    <div class="formgroup">
+        <label for="name"> Enter your first name: </label>
+        <input name="name">
+    </div>
+    <button>submit</button>
+</form>

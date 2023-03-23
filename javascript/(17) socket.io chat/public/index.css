@@ -1,0 +1,43 @@
+#displayMessages {
+    border: solid orange 4px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+    min-height: 200px;
+}
+
+#writeMessage {
+    margin: 10px;
+    width: 40%;
+    border: solid gray 2px;
+}
+
+#send {
+    height: 30px;
+    width: 60px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    margin-left: 10px;
+}
+
+#txt {
+    background-color: white;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+#myTxt {
+    background-color: lightblue;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: auto;
+    margin-right: 10px;
+}
