@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plus Sign</title>
+    <style>
+        article {
+            display: grid;
+            grid-template: repeat(2, 100px) / repeat(2, 100px);
+        }
+
+        div:nth-child(1) {
+            background-color: red;
+            grid-column: 1;
+            grid-row: 1;
+            align-self: end;
+            height: 20px;
+            z-index: 1;
+        }
+
+        div:nth-child(2) {
+            background-color: red;
+            align-self: start;
+            height: 20px;
+            grid-row: 2;
+            grid-column: 1;
+        }
+
+        div:nth-child(3) {
+            background-color: yellow;
+            grid-column: 2;
+            grid-row: 1;
+            align-self: end;
+            height: 20px;
+        }
+
+        div:nth-child(4) {
+            background-color: yellow;
+            grid-column: 2;
+            grid-row: 2;
+            align-self: start;
+            height: 20px;
+            z-index: 1;
+        }
+
+        div:nth-child(5) {
+            background-color: green;
+            grid-column: 2;
+            grid-row: 1;
+            width: 20px;
+        }
+
+        div:nth-child(6) {
+            background-color: green;
+            grid-column: 1;
+            grid-row: 1;
+            width: 20px;
+            justify-self: right;
+        }
+
+        div:nth-child(7) {
+            background-color: blue;
+            grid-column: 2;
+            grid-row: 2;
+            width: 20px;
+        }
+
+        div:nth-child(8) {
+            background-color: blue;
+            grid-column: 1;
+            grid-row: 2;
+            width: 20px;
+            justify-self: right;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </article>
+</body>
+
+</html>

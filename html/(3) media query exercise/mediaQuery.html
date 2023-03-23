@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            gap: 1em;
+            grid: "header header" minmax(20px, max-content) "ad1 article" minmax(100px, max-content) "ad2 article" minmax(100px, max-content) "ad3 article" minmax(100px, max-content) "ad4 article" minmax(100px, max-content) ". more" / 1fr 3fr;
+        }
+
+        div {
+            border: 2px solid black;
+        }
+
+        #ad1 {
+            grid-area: ad1;
+            background-color: lightgreen;
+        }
+
+        #ad2 {
+            grid-area: ad2;
+            background-color: lightcoral;
+        }
+
+        #ad3 {
+            grid-area: ad3;
+            background-color: lightskyblue;
+        }
+
+        #ad4 {
+            grid-area: ad4;
+            background-color: lightgoldenrodyellow;
+        }
+
+        header {
+            grid-area: header;
+            padding: 1em;
+            font-size: large;
+            font-weight: bolder;
+        }
+
+        article {
+            grid-area: article;
+        }
+
+        p {
+            grid-area: more;
+        }
+
+        @media screen and (min-width: 600px) {
+            body {
+                grid: "ad1 ad2" minmax(100px, max-content) "ad3 ad4" minmax(100px, max-content) "header header" minmax(20px, max-content) "article article"". more" minmax(min-content, max-content) / 1fr 1fr;
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            body {
+                grid: "ad1 ad2 ad3 ad4" minmax(100px, max-content) ". header header ." minmax(20px, max-content) "more article article ." / 1fr 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ad1">Advertisement #1
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. is ratione
+    </div>
+    <div id="ad2">Advertisement #2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dignissimos
+        assumenda quod neque quos vitae iste tempora fugit nemo.</div>
+    <div id="ad3">Advertisement #3 Lorem ipsum dolognissimos assumend quod facilis ratione
+        laudantium cum libero rerum, neque quos vitae iste tempora fugit nemo.</div>
+    <div id="ad4">Advertisement #4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dignissimos
+        neque quos vitae iste tempora fugit nemo. Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Cupiditate, at?</div>
+    <header>This Is a News Article:</header>
+    <article>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reprehenderit voluptatum inventore
+        fugiat, vitae, blanditiis obcaecati unde quos tempore consequatur odio nisi quas dolore! Libero voluptates
+        magni, facilis eligendi eum beatae, nisi aut illum exercitationem, velit suscipit placeat officiis animi qui et
+        voluptatem illo nemo ut unde harum? Laboriosam ducimus, delectus exercitationem nemo, id earum, dolor laudantium
+        vero ratione explicabo qui incidunt aspernatur! Ipsa velit ea, harum eaque, vel nostrum eos iusto commodi quo
+        unde dolore sed culpa maiores eligendi delectus nam error expedita recusandae aliquam doloribus reiciendis
+        obcaecati illo? Nobis repellendus possimus quis, eaque aperiam delectus. Adipisci, corporis voluptatum? Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Hic autem pariatur quas! Est tempora nihil quibusdam quis
+        odio id dolorem exercitationem at quasi, enim adipisci dolore nostrum, fugit modi! Iusto explicabo est
+        dignissimos eligendi officiis! Veniam recusandae magni autem libero illo. Accusamus soluta praesentium dolor sit
+        suscipit dolorem numquam, odit nostrum neque consequuntur recusandae quisquam aut autem cupiditate porro
+        laudantium, labore dicta aperiam sequi! Totam unde sunt voluptas quibusdam officiis voluptatum minus! Quod
+        aspernatur ipsum est saepe error quisquam facere, nostrum perferendis! Vel excepturi eum blanditiis iure.
+        Eligendi labore pariatur incidunt perferendis laborum omnis, aspernatur cum eos accusantium? Qui, numquam!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officiis accusantium repudiandae
+        exercitationem temporibus, maiores optio qui nulla ipsam voluptate dolore facere quos labore sequi eligendi?
+        Tempore, praesentium recusandae consequatur officiis repellat commodi deserunt. Eveniet quidem minus incidunt
+        repellat praesentium sunt eum modi ullam repellendus dolores amet distinctio, quo, quam similique enim! Officia
+        consequuntur iste unde illum tempora quo aperiam amet nisi earum nam, eum neque consectetur corporis expedita
+        illo quibusdam nihil ipsam! Officiis sapiente culpa eius molestias libero voluptatem, doloribus laborum impedit
+        exercitationem maiores reprehenderit, a aspernatur, voluptates quod recusandae veniam! Enim delectus saepe
+        voluptatem vel, tempora cumque aliquid?
+    </article>
+    <p>Find more articles like these at www.morenews.com</p>
+</body>
+
+</html>

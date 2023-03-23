@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plus Sign</title>
+    <style>
+        article {
+            display: grid;
+            grid: ". top top ." 100px "left top2 right2 right" 20px "left left2 bottom2 right" 20px ". bottom bottom ." 100px / 100px 20px 20px 100px;
+        }
+
+        div:nth-child(1) {
+            grid-area: top;
+            background-color: red;
+        }
+
+        div:nth-child(2) {
+            grid-area: right;
+            background-color: yellow;
+        }
+
+        div:nth-child(3) {
+            grid-area: bottom;
+            background-color: green;
+        }
+
+        div:nth-child(4) {
+            grid-area: left;
+            background-color: blue;
+        }
+
+        div:nth-child(5) {
+            grid-area: left2;
+            background-color: blue;
+        }
+
+        div:nth-child(6) {
+            grid-area: right2;
+            background-color: yellow;
+        }
+
+        div:nth-child(7) {
+            grid-area: top2;
+            background-color: red;
+        }
+
+        div:nth-child(8) {
+            grid-area: bottom2;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </article>
+</body>
+
+</html>
